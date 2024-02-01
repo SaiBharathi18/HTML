@@ -1,0 +1,60 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
+}
+.pimg1 {
+  background-image: url(https://media.istockphoto.com/id/1214446442/photo/island-small-island-in-ocean-3d-render.jpg?s=2048x2048&w=is&k=20&c=125mJi3Qihgf1HqBVUxesiEAZ6BryyZL8mr_vu3x24s=);
+  min-height: 100%;
+}
+.pimg2 {
+  background-image: url(https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8N3x8fGVufDB8fHx8fA%3D%3D);
+  min-height: 400px;
+}
+.pimg3 {
+  background-image: url(https://images.unsplash.com/photo-1556800572-1b8aeef2c54f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTV8fHxlbnwwfHx8fHw%3D);
+  min-height: 400px;
+}
+.pimg1,
+.pimg2,
+.pimg3 {
+  position:relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: black;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+.textBg {
+  background: #313534;
+  color: #fff;
+  padding: 20px;
+}
+
+.section {
+  padding: 50px 80px;
+  text-align: center;
+}
+.section-light {
+  background-color: #f4f4f4;
+  color: #666;
+}
+.section-dark {
+  background-color: #282e34;
+  color: #ddd;
+}

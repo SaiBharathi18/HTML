@@ -1,0 +1,76 @@
+*
+{
+    box-sizing: border-box;
+}
+header{
+    background-color:black;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    height: 90px;    
+}
+body{
+    background-image: url(https://img.freepik.com/free-photo/architecture-color-holy-beautiful-detail_1203-6106.jpg?size=626&ext=jpg&ga=GA1.1.1867569809.1703251139&semt=ais);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.menu ul
+{
+    display: flex;
+    gap: 40px;
+    justify-content:center;
+    text-align: left;
+    height: 50px;
+
+}
+.menu li a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.menu li a:hover{
+    color:rgba(6, 89, 222, 0.959)
+}
+.menu li
+{
+   padding: 0 20px;
+}
+#home
+{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:100px ;
+}
+.left img
+{
+    width: 400px;
+    height: 500px;
+    border-radius: 520px;
+}
+.right
+{
+    padding:0 50px;
+}
+.heading
+{
+font-size: 80px;
+margin: 0px;
+}
+.sub-heading
+{
+    font-size:48px;
+    margin: 0px;
+}
+.sub-heading span
+{
+    color:ivory;
+    text-decoration:solid ;
+}
+p{
+    text-align: justify;
+    font-size: 20px;
+    padding: 0px 60px;
+}

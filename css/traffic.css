@@ -1,0 +1,41 @@
+body
+{
+ background-color: rgb(224, 237, 239);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100px;
+}
+.pole
+{    
+    border-color: blueviolet;
+    height: 150px;
+    width: 100px;
+    border-radius: 100px;   
+    display: flex;
+    margin-top: 500px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color:thistle;    
+}
+.light{
+    border: 1px solid black;
+    height: 30px;
+    width: 30px;
+    border-radius: 210px;
+    background-color:black ; 
+            transition-duration: 1s;
+            transition-timing-function: ease;   
+                 
+    }
+    .light:first-child:hover{
+       background-color: red;       
+    }
+    .light:nth-child(2):hover{
+        background-color: orange;
+    }
+    .light:last-child:hover{
+        background-color:green;
+    }

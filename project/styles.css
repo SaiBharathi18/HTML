@@ -1,0 +1,79 @@
+*
+{
+    box-sizing: border-box;
+    
+}
+.button{
+    justify-content: center;
+    align-content: center;
+
+}
+.modal
+{
+    display: none;
+    width: 400px;
+    height: 500px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 0px 30px;
+}
+
+.close
+{
+   
+    width: 100%;
+    position:relative;
+left: 330px;
+}
+body
+{
+    background-color: rgb(80,0,0,0.2);
+    display: flex;
+    justify-content: center;
+    padding-top: 40vh;    
+}
+#btn{
+border-style: double;
+border-radius: 70px;
+box-shadow: 5px 3px black;
+}
+#btn:hover{
+    background-color:rgba(21, 236, 21, 0.512)
+}
+#counter
+{
+  height: 350px;
+  width: 300px;
+  background-color: rgba(236, 178, 244, 0.616);
+  box-shadow: 5px 5px black;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content:right;
+  align-items: center;
+  border-radius: 50px;
+}
+#btn1:hover{
+    background-color: rgb(0, 0,0,0.4);
+    border-radius: 8px;
+}
+#btn2:hover{
+    background-color: rgb(0, 0,0,0.4);
+    border-radius: 8px;
+}
+#btn3{
+    border-radius: 8px;
+}
+#btn3:hover{
+    background-color: rgb(0, 0,0,0.4);
+}
+.light
+{
+    background-color:white;
+    color: black;
+}
+.dark
+{
+    background-color: black;
+    color: white;
+}
