@@ -30,12 +30,72 @@ body
             transition-timing-function: ease;   
                  
     }
-    .light:first-child:hover{
-       background-color: red;       
+    @keyframes demo
+    {
+        0%{
+            background-color: black;
+        }
+        
+        50%{
+            background-color:red;
+        }
+        100%{
+        background-color: black;
+        }
     }
-    .light:nth-child(2):hover{
-        background-color: orange;
+.light:first-child{
+    animation: demo ;
+    animation-duration: 5s;
+    animation-delay: 3s;
+}
+@keyframes demo1
+    {
+        0%{
+            background-color: black;
+        }
+        
+        50%{
+            background-color:orange;
+        }
+        100%{
+            background-color: black;
+            }
     }
-    .light:last-child:hover{
-        background-color:green;
+.light:nth-child(2){
+    animation: demo1 ;
+    animation-duration: 5s;
+    animation-delay: 10s;
+}
+@keyframes demo2
+    {
+        0%{
+            background-color: black;
+        }
+        
+        50%{
+            background-color:green;
+        }
+        100%{
+            background-color: black;
+            }
     }
+.light:last-child{
+    animation: demo2 ;
+    animation-duration: 5s;
+    animation-delay: 15s;
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
